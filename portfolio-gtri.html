@@ -56,11 +56,11 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -73,10 +73,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Rescue UAV Design Project</h2> <!-- Replace -->
+          <h2>Intelligent Robot Arm</h2> <!-- Replace -->
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Rescue UAV Design Project</li> <!-- Replace -->
+            <li>GTRI Internship</li> <!-- Replace -->
           </ol>
         </div>
 
@@ -94,27 +94,27 @@
               <div class="swiper-wrapper align-items-center"> <!-- ADD IMAGES BELOW TO ROLODEX -->
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/251 Design Project/thumbnail.png" alt="">
+                    <img src="assets/img/portfolio/GTRI/arm.jpeg" alt="">
+                  </div>
+                
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/GTRI/arm2.jpeg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/251 Design Project/assignment.png" alt="">
+                    <img src="assets/img/portfolio/GTRI/desk.jpeg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/251 Design Project/grouplogo.png" alt="">
+                    <img src="assets/img/portfolio/GTRI/camerawindow.jpeg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/251 Design Project/solution.png" alt="">
+                    <img src="assets/img/portfolio/GTRI/statemachine.jpeg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/251 Design Project/airfoil.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="assets/img/portfolio/251 Design Project/dragpolarplot.png" alt="">
+                    <img src="assets/img/portfolio/GTRI/certificate.jpeg" alt="">
                 </div>
 
               </div>
@@ -126,22 +126,23 @@
             <div class="portfolio-info">
               <h3>Project Information</h3>   <!-- REPLACE -->
               <ul>
-                <li><strong>Category: </strong>CAD and Optimization</li>
-                <li><strong>Class:</strong> <a href="https://catalog.purdue.edu/preview_course_nopop.php?catoid=7&coid=50170"> AAE 251: Introduction to Aerospace Design</a></li>
-                <li><strong>Project dates: </strong>8/21/2023 - 12/9/2023</li>
+                <li><strong>Category: </strong>Robotics and Programming</li>
+                <li><strong>Company: </strong>Georgia Tech Research Institute</li>
+                <li><strong>Project date: </strong>06/14/2021 - 07/23/2021</li>
+                <li><strong>Project URL:</strong> <a href="https://www.gtri.gatech.edu/laboratories/aerospace-transportation-advanced-systems-laboratory">GTRI ATAS Lab</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Description</h2> <!-- REPLACE -->
               <p>
-                The final project for my Introduction to Aerospace Design class had me design/prototype an Unmanned Aerial Vehicle (UAV) from scratch for use in search and rescue applications. Throughout the course I learned many aspects of aircraft design, including atmospheric considerations, aircraft sizing, mission diagrams, and fuel calculations. I also learned how to analyze these using MATLAB and how to optimize them for the various mission constraints provided. This resulted in moderately sized, fixed wing UAV taking inspiration from the Hermes 450. The prototype was modeled using Siemens NX and sized using various MATLAB scripts tuned to mission-specific parameters. 
+                As part of my summer internship at the GTRI ATAS lab, I got to program Arduino Braccio robot arms with 6 degrees of freedom to complete various tasks autonomously. Due to COVID restrictions, I would program this robot with the goal of deploying the code on real robots in the lab remotely. We used Vision Based Sensing, primarily based on OpenCV and April Tags to detect and locate objects in 3D space. We also developed our own kinematics and inverse kinematics libraries tuned to Braccio robot parameters for motion planning. Finally, ROS was used to integrate the vision and kinematics to motion profile and execute actions autonomously. This all culminated in a final presentation where the robot picked up a box with an April Tag on it autonomously and placed it in a target location. <!-- REPLACE -->
 
-                <br><br> <b>Image 1: </b>Isometric view of final prototype
-                <br> <b>Image 2: </b>Assignment description
-                <br> <b>Image 3: </b>Team logo
-                <br> <b>Image 4: </b>Multiple views of final prototype with Hermes 450
-                <br> <b>Image 5: </b>Chosen NACA airfoil plotted in MATLAB with corresponding chord and camber lines
-                <br> <b>Image 6: </b>Coefficient of Drag vs Coefficient of Lift for chosen airfoil plotted in MATLAB
+                <br><br> <b>Image 1: </b>Arduino Braccio Robot Arm
+                <br> <b>Image 2: </b>Custom 3D printed housing for camera attachment
+                <br> <b>Image 3: </b>Initial vision test with camera
+                <br> <b>Image 4: </b>Vision integration with Braccio serial communication
+                <br> <b>Image 5: </b>Complete state map of detection and kinematics procesesses
+                <br> <b>Image 6: </b>Completion certificate!
               </p>
             </div>
           </div>
